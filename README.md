@@ -13,6 +13,7 @@ which can let you upload a test picture
 the other one is:
 http://127.0.0.1/detect?url=tmp/tmp.jpg
 it can return the bounding box position and category prediction, like the below string:
+```
 {
 "object": [
 {
@@ -30,4 +31,5 @@ it can return the bounding box position and category prediction, like the below 
   "class": "18"}
 ]
 }
+```
 
